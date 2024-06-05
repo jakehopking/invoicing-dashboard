@@ -17,10 +17,10 @@ export default function Page() {
           <p
             className={`${lusitana.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}
           >
-            <strong>Welcome to beyond invoicing.</strong> This is the app you've
-            spent your life waiting for!
+            <strong>Welcome to beyond invoicing.</strong> This is the app
+            you&apos;ve spent your life waiting for!
             <br />
-            Brought to you by beyond creativity.
+            Brought to you by beyond creativity&reg;.
           </p>
           <Link
             href="/login"
