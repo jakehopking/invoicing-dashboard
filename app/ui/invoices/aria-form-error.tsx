@@ -12,7 +12,7 @@ export const AriaFormError = ({
   errors: string[] | undefined;
   /**
    * The id of the element that the error message is describing.
-   * This must match the `aria-describedby` attribute of the form element.
+   * This must match the `aria-describedby` attribute of the related form element.
    */
   ariaDescribedById: string;
 }) => {
