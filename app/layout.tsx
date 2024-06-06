@@ -1,6 +1,17 @@
 import '@/app/ui/global.css';
 import { inter } from '@/app/ui/fonts';
 
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: {
+    template: '%s | Acme Dashboard',
+    default: 'Acme Dashboard',
+  },
+  description: 'The best invoicing app in the world!',
+  metadataBase: new URL('https://mawni-invoicing.app/'),
+};
+
 export default function RootLayout({
   children,
 }: {
